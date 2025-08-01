@@ -6,7 +6,6 @@ const bMessage = () => {
     let i = 1;
     const batchSize = 100;
 
-    // เคลียร์ข้อความเก่าทั้งหมดก่อนเริ่มใหม่
     bird.innerHTML = "";
 
     const fragment = document.createDocumentFragment();
